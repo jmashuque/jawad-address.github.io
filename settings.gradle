@@ -1,0 +1,3 @@
+rootProject.name = "Ass2_MyAddress"
+include ':app'
+include ':paid'

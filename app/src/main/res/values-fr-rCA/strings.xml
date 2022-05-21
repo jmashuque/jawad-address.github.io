@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mon Carnet D\'Adresses</string>
+    <string name="about_text">Mon Carnet D\'Adresses\n\nCopyright \u00A9 Jawad Mashuque.</string>
+    <string name="about_btn_text">OK</string>
+
+    <string name="form_gender_prompt">Gender:</string>
+    <string name="form_first_prompt">First Name:</string>
+    <string name="form_last_prompt">Last Name:</string>
+    <string name="form_address_prompt">Address:</string>
+    <string name="form_province_prompt">Province:</string>
+    <string name="form_country_prompt">Country:</string>
+    <string name="form_postal_prompt">Postal Code:</string>
+    <string name="form_submit_prompt">Submit</string>
+
+    <string name="form_gender1">Mr.</string>
+    <string name="form_gender2">Mrs.</string>
+    <string name="form_gender3">Ms.</string>
+    <string name="form_gender4">Dr.</string>
+
+    <string name="menu_about_text">About</string>
+    <string name="menu_clear_text">Clear</string>
+    <string name="menu_exit_text">Exit</string>
+</resources>

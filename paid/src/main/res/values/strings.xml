@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Address Book Plus</string>
+    <string name="about_text">My Address Book Plus\n\nCopyright \u00A9 Jawad Mashuque.</string>
+    <string name="about_btn_text">OK</string>
+    <string name="view_btn_text">View Address Book</string>
+    <string name="add_btn_text">Insert New Person</string>
+
+    <string name="form_gender_prompt">Gender:</string>
+    <string name="form_first_prompt">First Name:</string>
+    <string name="form_last_prompt">Last Name:</string>
+    <string name="form_address_prompt">Address:</string>
+    <string name="form_province_prompt">Province:</string>
+    <string name="form_country_prompt">Country:</string>
+    <string name="form_postal_prompt">Postal Code:</string>
+    <string name="form_submit_prompt">Submit</string>
+
+    <string name="form_gender1">Mr.</string>
+    <string name="form_gender2">Mrs.</string>
+    <string name="form_gender3">Ms.</string>
+    <string name="form_gender4">Dr.</string>
+
+    <string name="menu_insert_text">Insert</string>
+    <string name="menu_clear_text">Clear</string>
+    <string name="menu_about_text">About</string>
+    <string name="menu_exit_text">Exit</string>
+
+    <string name="list_default">Currently there are no entries in your book.</string>
+    <string name="list_delete">Delete entry</string>
+</resources>

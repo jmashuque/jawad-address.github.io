@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/DimGray"
+    android:layout_marginHorizontal="96dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/form_text_gender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_gender_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/White" />
+
+        <Spinner
+            android:id="@+id/form_spin_gender"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.70"
+            android:entries="@array/arr_genders"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/form_text_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_first_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/White" />
+
+        <EditText
+            android:id="@+id/form_edit_first"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.70"
+            android:ems="10"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/form_text_last"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_last_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/White" />
+
+        <EditText
+            android:id="@+id/form_edit_last"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.70"
+            android:ems="10"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/form_text_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_address_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/White" />
+
+        <EditText
+            android:id="@+id/form_edit_address"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.70"
+            android:ems="10"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/form_text_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_province_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/White" />
+
+        <Spinner
+            android:id="@+id/form_spin_province"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.70"
+            android:entries="@array/arr_provinces"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/form_text_country"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_country_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/White" />
+
+        <EditText
+            android:id="@+id/form_edit_country"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="0.70"
+            android:ems="10"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/Black"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/form_text_postal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:text="@string/form_postal_prompt"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/White" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70">
+
+            <EditText
+                android:id="@+id/form_edit_postal"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="0.60"
+                android:ems="10"
+                android:background="@color/White" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40">
+
+                <Button
+                    android:id="@+id/form_btn_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/form_submit_prompt"
+                    android:onClick="submitCheck"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/form_btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/menu_clear_text"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="FunctionClear"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10in"
+        android:background="@color/Black" />
+
+</LinearLayout>
